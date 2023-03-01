@@ -158,6 +158,7 @@ var generatePassword = function() {
       passGenrandchar += passGen[passGenrand];
     }
     console.log(passGenrandchar);
+    console.log(passGenrandchar.length);
     return passGenrandchar;
   }
   
